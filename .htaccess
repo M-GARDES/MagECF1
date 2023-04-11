@@ -1,0 +1,2 @@
+ErrorDocument 404 /404.html 
+/* redirige visiteurs qui accèdent à  page qui n'existe pas, vers ma page d'erreur 404 personnalisée*/

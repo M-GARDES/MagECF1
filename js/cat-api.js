@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {      /* requête envoyée*
         const catImageContainer = document.getElementById("cat-image-container");/*sélection l'élémnt html avec l'id "cat-image-container" à l'aide de la méthode "getElementById" et on le stocke dans la constante "catImageContainer"*/
         const catImage = document.createElement("img");/*crée 1nouvel élémnt html img à l'aide de méthode "createElement", puis lui assigne l'url de l'img (propriété src)*/
         catImage.src = catImageURL;
-        catImageContainer.appendChild(catImage);  //la fonction ajoute l'élémnt <img> "enfant de élémnt + l'ID cat-image-container dans DOM de la pg. permet afficher l'img aléatoire récupérée à l'écran.*/
+        catImageContainer.appendChild(catImage);  /*la fonction ajoute l'élémnt <img> "enfant de élémnt + l'ID cat-image-container dans DOM de la pg. permet afficher l'img aléatoire récupérée à l'écran.*/
       })
       .catch(error => console.log(error)); /*gére erreurs de la requête "fetch". Si erreur ,elle sera affichée dans la console "console.log()".*/
     }

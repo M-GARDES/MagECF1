@@ -5655,15 +5655,6 @@ textarea.form-control-lg {
   background-position: 50%;
   background-size: 100% 100%;
 }
-
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
@@ -10648,8 +10639,8 @@ blockquote {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   box-shadow:
   0 0 8px #fff,
-  inset 0 0 8px #ffc107,
-  0 0 16px #ffc107,
+  inset 0 0 8px #6F10E9,
+  0 0 16px #6F10E9,
   inset 0 0 16px #6F10E9,
   0 0 32px #ffc107,
   inset 0 0 32px #6F10E9; 
@@ -10716,7 +10707,7 @@ blockquote {
     color: #0085A1;
   }
   #mainNav.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
+    /* selon direction du scrowlling, montre le header*/
     transform: translate3d(0, 100%, 0);
   }
 }

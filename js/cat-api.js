@@ -33,8 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {      /* requête envoyée*
           const catImageContainer = document.getElementById("cat-image-container");/*référence à élément html dans lequel l'image de chat sera affichée. La fonction "getElementById" pour sélectionner l'élément html en utilisant son ID.*/
           const catImage = document.createElement("img");  /*crée nouvel élmnt html 'img' utilise méthode 'createElement' et stocke l'élmnt dans variable nommée "catImage". l'élmnt sera utilisé pour afficher l'image du chat récupérée à partir de l'API.*/
           catImage.src = catImageURL; /*définit source de l'img à afficher en utilisant l'url récupérée depuis l'API des images de chat. Permet de créer nouv img html qui sera affichée sur la page.*/
-          catImage.height = 500; // hauteur souhaitée de l'image
-          catImage.width = 700; // largeur souhaitée de l'image
+          catImage.alt = "Random cat image";
+          catImage.style.maxWidth = "100%";
+          catImage.style.height = "auto";
           catImageContainer.innerHTML = ""; /* pour supprimer img précédente avant de placer nouvelle img.*/
           catImageContainer.appendChild(catImage);  /*insère l'image du chat dans le document html*/
         })

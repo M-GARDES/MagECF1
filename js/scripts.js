@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => { /*ajoute 1écouteur d'évnmn
         const currentTop = document.body.getBoundingClientRect().top * -1;/*définit 1variable "currentTop" qui stocke la position actue de l'utilisateur sur la page en px. 
         Calcul :position de la partie sup du corps de la page (document.body.getBoundingClientRect().top) x par -1 pour la transformer en un nombre positif.*/
         if ( currentTop < scrollPos) {/*teste si l'utilisateur fait défiler la page vers le haut. Si position actu est inf à position précéd (stockée dans variable scrollPos), l'utilisateur a fait défiler vers le haut.*/
-            // Scrolling Up
+            // Scrolling Up//
 
             /*Si utilisateur fait défiler vers haut, code est exécuté. Si position actue sup à 0 et que classe "is-fixed" est présente sur élément 'HTML' avec la classe "mainNav",
              signifie que la barre de navgtn doit rester fixe en haut de la page.

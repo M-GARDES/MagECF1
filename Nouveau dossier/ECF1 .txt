@@ -1,0 +1,38 @@
+Merci de déposer ici :
+
+Le document de présentation Orale complet (Projet HTML)
+Le cahier des charges technique
+Le dossier de projet HTML
+ECF 1
+
+
+Pour cet exercice nous allons nous mettre dans les conditions de l’oral de fin de parcours.
+
+Vous devrez donc présenter votre travail lors d’un visio individuelle de 30 minutes. Cet oral sera accompagner d'un support de présentation.
+Celui-ci présentera au minimum : les étapes de travail, les points qui vous semblent importants, le mode d'emploi de l'API
+
+Cahier des charges :
+
+Vous créez un site internet sur le thème de votre choix : votre portfolio, un jeu vidéo, un lieu etc…
+
+Celui-ci devra contenir au minimum les pages suivantes :
+
+Page d’accueil
+Une page de contenu
+Une page contact
+Une page mentions légales
+Cahier des charges techniques :
+
+La réalisation se ferra en HTML/CSS
+L’utilisation d’un framework type bootstrap ou foundation est autorisé (et conseillé)
+Vous communiquerez avec l’api de votre choix pour afficher des informations sur votre site (météo, navigation d’avion, info nutritionnelles peu importe, mais elle doit rester dans le thème de votre site)
+Le site devra être responsive
+Le site devra être valide au W3C
+Le site devra être accessible WCAG niveau AA (Web Accessibility Checker for WCAG 2.0 AODA Compliance Monitoring (achecks.ca))
+Vous rédigerez le cahier des charges de votre site
+Vous créerez des maquettes avant intégration
+Bonus :
+
+Le site est versionné sur Github
+Le site est accessible en ligne
+----------------------------------------------------------------------------------------------------------------------------------------------------

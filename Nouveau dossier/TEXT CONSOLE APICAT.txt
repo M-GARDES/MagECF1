@@ -1,0 +1,39 @@
+* trouver url de l image :  
+        fetch('https://api.thecatapi.com/v1/images/search')
+        .then(response => response.json())
+        .then(data => {
+        console.log(data[0].url);
+        });
+        
+                  -------------------------
+
+    * pour obtenir lien image race siamois:
+        fetch('https://api.thecatapi.com/v1/images/search?breed_ids=siam', {
+        headers: {
+'x-api-key':'vivre_Ik5s08ymWRLxwp7qF4v3y0Xqy1wmrLMFVBr4qghPAG5srDRwU2vFxzkxwQslhMKv'
+  }
+})
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+                 -------------------------
+
+    * obtenir 10 liens de photo de chats marrant:
+      fetch('https://api.thecatapi.com/v1/images/search?limit=10&category_ids=5', {
+  headers: {
+'x-api-key':'vivre_Ik5s08ymWRLxwp7qF4v3y0Xqy1wmrLMFVBr4qghPAG5srDRwU2vFxzkxwQslhMKv'
+  }
+})
+  .then(response => response.json())
+  .then(data => console.log(data));
+   
+                  ------------------------------
+
+   *pour obtenir info sur des race de chat: (60 liens sur les races de chats )
+     fetch('https://api.thecatapi.com/v1/breeds', {
+  headers: {
+    'x-api-key': 'vivre_Ik5s08ymWRLxwp7qF4v3y0Xqy1wmrLMFVBr4qghPAG5srDRwU2vFxzkxwQslhMKv'
+  }
+})
+  .then(response => response.json())
+  .then(data => console.log(data));

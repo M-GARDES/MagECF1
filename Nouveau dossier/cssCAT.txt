@@ -1,0 +1,45 @@
+@charset "UTF-8": 
+ -indique au navigateur Web que le fichier CSS est encodé en UTF-8,(standard d'encodage )
+ -assure que les caractères spéciaux et les accents seront correctement affichés sur la page Web
+ - important d'inclure cette déclaration au début de votre fichier CSS,  garantit que le navigateur interprétera correctement toutes 
+   les propriété CSS sutilisées.
+
+
+:root :                    
+ - pour définir des variables CSS globales, qui peuvent être utilisées pour stocker des valeurs réutilisables
+
+*::before et *::after :      
+- ciblent respectivement les pseudo-éléments 
+
+box-sizing: border-box; sur *, *::before, et *::after:
+-on force tous les éléments de la page à utiliser le modèle de boîte de rendu "border-box", qui inclut les bordures et les marges dans le calcul de la largeur et -de la hauteur de l'élément. Cela garantit que les éléments restent dans leur conteneur et leur positionnement est plus prévisible.
+
+@media (prefers-reduced-motion: no-preference): 
+ -on définit un comportement de défilement fluide (smooth) pour la page, qui crée une animation de transition douce lors du défilement vers un élément de la page
+
+webkit-text-size-adjust :
+-est une propriété CSS spécifique à WebKit (le moteur de rendu de navigateur utilisé par Safari et certains autres navigateurs) qui contrôle l'ajustement de la taille du texte lorsque l'utilisateur zoome sur une page Web.
+
+webkit-tap-highlight-color:
+-qui contrôle la couleur de surbrillance lorsqu'un élément est touché sur un appareil mobile.
+
+legend + * 
+sélectionne tous les éléments qui suivent immédiatement une balise <legend> dans le code HTML. La combinaison + est appelée sélecteur de frère adjacent et sélectionne uniquement l'élément immédiatement suivant.
+
+webkit-datetime-edit-fields-wrapper/-edit-month-field etcc
+éléments spécifiques dans les champs de date et d'heure dans les navigateurs WebKit tels que Google Chrome et Safari.
+
+!important :
+est utilisé pour donner une priorité maximale à cette règle. Cela signifie que même si une autre règle CSS est appliquée à l'élément avec une propriété contradictoire, cette règle sera toujours appliquée en dernier.
+
+blockquote-footer::before
+ajoute une citation sous forme de tiret cadratin avant chaque élément qui a la classe .blockquote-footer.
+
+gx-xl-5 
+est une classe de taille bootstrap qui est utilisée pour appliquer une marge horizontale (gx) de 3rem à un élément lorsque l'écran est de taille extra large (xl), c'est-à-dire lorsque la largeur de l'écran est supérieure à 1200 pixels.
+
+.table-sm > :not(caption) > * > *
+ sélectionne tous les éléments enfants de l'élément parent qui a la classe .table-sm, à l'exception de l'élément caption.
+
+ table-striped > tbody > tr:nth-of-type(odd) >
+utilisée pour appliquer un style à toutes les cellules des rangées impaires d'une table rayée (striped) pour les différencier des rangées paires. 

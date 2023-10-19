@@ -30,14 +30,14 @@
 
         .trouv {
          font-size: 2.5rem;
-         margin-top: 40rem; 
-         margin-bottom: 1rem;
+         margin-top: 10px; 
+         margin-bottom: 5px;
          color: #404040;
         }
 
         .sorry {
          font-size: 1.5rem ;
-         margin-bottom: 2rem;
+         margin-bottom: 10px;
          color: black;
         }
 
@@ -75,18 +75,20 @@
          transform: translateX(-50%);
         }
         .fas{
-         color: rgb(193, 6, 6);
-         margin-bottom: 500px;           
+         color: rgb(193, 6, 6);          
+        }
+        .custom-image {
+          max-width: 100%;
+          max-height: 50vh; /* Ajustez la hauteur maximale selon vos besoins */
         }
         </style>
     </head>
 <body>
     <div class="container">
-        <em class="fas fa-exclamation-triangle icon"></em><br>
-        <img src="image/img/erreur.webp" class="img-fluid" alt="image erreur404">
         <h2 class="trouv">Page non trouvée</h2>
         <p class="sorry">Désolé, la page que vous recherchez n'a pas été trouvée.</p>
+        <img src="image/img/erreur.webp" class="img-fluid custom-image" alt="image erreur404">
         <a href="index.html" class="retour">Retourner à la page d'accueil</a>
-    </div>
+      </div>
 </body>
 </html>

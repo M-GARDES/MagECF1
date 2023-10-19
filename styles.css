@@ -90,9 +90,10 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
+  -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 hr {
@@ -151,6 +152,10 @@ h1, .h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+#message {
+  height: 12rem;
+}
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
@@ -205,8 +210,6 @@ abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
   cursor: help;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
 }
 
 address {
@@ -10718,6 +10721,22 @@ footer {
   padding-bottom: 3rem;
 }
 
+header.masthead.p1 {
+  background-image: url(image/img/deschat.webp);
+}
+
+header.masthead.p2 {
+  background-image: url(image/img/yeuxnnette.webp);
+}
+
+header.masthead.p3 {
+  background-image: url(image/img/catonline.webp);
+}
+
+header.masthead.p4 {
+  background-image: url(image/img/burochat.webp);
+}
+
 header.masthead {
   position: relative;
   margin-bottom: 3rem;
@@ -10727,7 +10746,6 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
- background-image: url(image/img/yeuxnnette.webp);
 }
 
 header.masthead:before {
